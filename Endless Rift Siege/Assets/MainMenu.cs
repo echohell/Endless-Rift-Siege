@@ -9,4 +9,10 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("InteriorShot");
     }
+
+    public void Kill()
+    {
+        Debug.Log("This is a test for quitting.");
+        Application.Quit();
+    }
 }
